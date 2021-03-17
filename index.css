@@ -2,3 +2,26 @@
 img {
     width: 350px;
     }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav-item {
+    display: flex;
+    margin-left: 20px;
+}
+
+    /* 
+.f1 {
+    font-size: 2em;
+    }
+
+.f2 {
+    font-size: 1.5em;
+    } */
