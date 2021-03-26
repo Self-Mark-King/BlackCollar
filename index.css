@@ -7,12 +7,10 @@ img {
     justify-content: space-between;
     align-items: center;
 }
-.nav-links {
+.nav-links, a:visited {
     display: flex;
-    list-style-type: none;    
-}
-.nav-links:visited{
-    color: black;
+    list-style-type: none; 
+    color: black;   
 }
 .nav-item {
     display: flex;
