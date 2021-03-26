@@ -9,12 +9,17 @@ img {
 }
 .nav-links {
     display: flex;
-    list-style-type: none;
-    
+    list-style-type: none;    
+}
+.nav-links:visited{
+    color: black;
 }
 .nav-item {
     display: flex;
     margin-left: 20px;
+}
+.nav-item:visited {
+    color: black;
 }
 
     /* 
