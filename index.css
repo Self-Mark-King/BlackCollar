@@ -1,11 +1,29 @@
+@font-face {
+    font-family: 'marlboro';
+    src: url(fonts/marlboro/Marlboro.ttf);
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class ="navbar"] {
+        display: flex;
+        align-content: center;
+    }
+  }
+
 
 body {
     background-color: black;
     color: white;
+    font-family: "marlboro";
 }
 img {
     width: 350px;
     }
+.logo {
+    font-size: 50px;
+    font-family: "marlboro";
+}
 .navbar {
     display: flex;
     justify-content: space-between;
