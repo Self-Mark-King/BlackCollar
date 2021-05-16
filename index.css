@@ -3,13 +3,17 @@
     src: url(fonts/marlboro/Marlboro.ttf);
   }
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class ="navbar"] {
         display: flex;
-        align-content: center;
+        justify-content: center;
     }
-  }
+    [class ="logo"] {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 body {
@@ -21,14 +25,16 @@ img {
     width: 350px;
     }
 .logo {
+    display: flex;
+    align-content: center;
     font-size: 50px;
     font-family: "marlboro";
 }
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 .nav-links, a, a:visited, a:hover {
     display: flex;
     list-style-type: none; 
