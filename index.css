@@ -13,6 +13,9 @@
         display: flex;
         justify-content: center;
     }
+    [class = "p-2"] {
+        align-content: center;
+    }
 }
 
 
